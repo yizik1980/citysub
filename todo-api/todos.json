@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn Node.js",
+      "description": "how you doing?",
+      "completed": false,
+      "createdAt": "2025-06-27T11:37:48.830Z",
+      "updatedAt": "2025-06-27T11:37:48.830Z"
+    },
+    {
+      "id": 2,
+      "title": "Build API",
+      "description": "Create a CRUD API with Express",
+      "completed": false,
+      "createdAt": "2025-06-27T11:37:48.830Z",
+      "updatedAt": "2025-06-27T11:37:48.830Z"
+    },
+    {
+      "id": 3,
+      "title": "brain new task",
+      "description": "dodo cbodo",
+      "completed": false,
+      "createdAt": "2025-06-27T12:03:02.610Z",
+      "updatedAt": "2025-06-27T12:03:02.610Z"
+    }
+  ],
+  "nextId": 4,
+  "lastUpdated": "2025-06-28T20:04:08.036Z"
+}
