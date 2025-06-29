@@ -15,24 +15,8 @@
       "completed": false,
       "createdAt": "2025-06-27T11:37:48.830Z",
       "updatedAt": "2025-06-27T11:37:48.830Z"
-    },
-    {
-      "id": 3,
-      "title": "brain new task",
-      "description": "dodo cbodo",
-      "completed": false,
-      "createdAt": "2025-06-27T12:03:02.610Z",
-      "updatedAt": "2025-06-27T12:03:02.610Z"
-    },
-    {
-      "id": 4,
-      "title": "מאיר דודסון",
-      "description": "מה קורה?",
-      "completed": false,
-      "createdAt": "2025-06-29T16:16:13.886Z",
-      "updatedAt": "2025-06-29T16:16:13.886Z"
     }
   ],
   "nextId": 5,
-  "lastUpdated": "2025-06-29T16:16:13.886Z"
+  "lastUpdated": "2025-06-29T16:45:09.229Z"
 }
