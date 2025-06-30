@@ -1,0 +1,111 @@
+/* You can add global styles to this file, and also import other style files */
+// Colors
+$primary: #2563eb;
+$secondary: #64748b;
+$success: #22c55e;
+$danger: #ef4444;
+$warning: #f59e42;
+$info: #0ea5e9;
+$light: #f3f4f6;
+$dark: #1e293b;
+$white: #fff;
+$black: #000;
+
+// Typography
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1rem;
+    color: $dark;
+    background-color: $light;
+    margin: 0;
+    padding: 0;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: $dark;
+}
+
+// Utility classes
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.font-bold { font-weight: 700; }
+.font-normal { font-weight: 400; }
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.p-4 { padding: 1rem; }
+.p-2 { padding: 0.5rem; }
+.m-4 { margin: 1rem; }
+.m-2 { margin: 0.5rem; }
+.rounded { border-radius: 0.25rem; }
+.rounded-full { border-radius: 9999px; }
+.shadow { box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06); }
+.bg-primary { background-color: $primary; color: $white; }
+.bg-secondary { background-color: $secondary; color: $white; }
+.bg-success { background-color: $success; color: $white; }
+.bg-danger { background-color: $danger; color: $white; }
+.bg-warning { background-color: $warning; color: $white; }
+.bg-info { background-color: $info; color: $white; }
+.bg-light { background-color: $light; color: $dark; }
+.bg-dark { background-color: $dark; color: $white; }
+
+// Buttons
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    &.btn-primary { background: $primary; color: $white; }
+    &.btn-secondary { background: $secondary; color: $white; }
+    &.btn-success { background: $success; color: $white; }
+    &.btn-danger { background: $danger; color: $white; }
+    &.btn-warning { background: $warning; color: $white; }
+    &.btn-info { background: $info; color: $white; }
+    &.btn-light { background: $light; color: $dark; }
+    &.btn-dark { background: $dark; color: $white; }
+}
+
+// Container
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.flex { display: flex; }
+.inline-flex { display: inline-flex; }
+.flex-row { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-col { flex-direction: column; }
+.flex-col-reverse { flex-direction: column-reverse; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
+.items-start { align-items: flex-start; }
+.items-center { align-items: center; }
+.items-end { align-items: flex-end; }
+.items-baseline { align-items: baseline; }
+.items-stretch { align-items: stretch; }
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+.gap-1 { gap: 0.25rem; }
+.gap-2 { gap: 0.5rem; }
+.gap-4 { gap: 1rem; }
+.gap-8 { gap: 2rem; }
+.flex-1 { flex: 1 1 0%; }
+.flex-auto { flex: 1 1 auto; }
+.flex-initial { flex: 0 1 auto; }
+.flex-none { flex: none; }

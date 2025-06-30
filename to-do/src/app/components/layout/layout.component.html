@@ -1,0 +1,9 @@
+<div>
+  <header class="header"></header>
+</div>
+<main class="main-content">
+  <div class="flex justify-between items-center p-4 bg-gray-100">
+    <app-task-form (addTask)="taskService.addTask($event)"></app-task-form>
+    <app-task-list [tasks]="taskService.getTasks()"></app-task-list>
+  </div>
+</main>

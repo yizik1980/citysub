@@ -1,0 +1,24 @@
+
+<div class="task-meta">
+    <h3>{{task.title}}</h3>
+    <p>Completed: {{ task.completed ? 'Yes' : 'No' }}</p>
+    <p>Created At: {{ task.createdAt | date:'medium' }}</p>
+    <p>Updated At: {{ task.updatedAt | date:'medium' }}</p>
+    <p>{{task.description}}</p>
+    <div class="task-actions">
+       
+         <button (click)="editTask(task)" aria-label="Edit" style="background:none;border:none;padding:0;cursor:pointer;">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+              <path d="M14.85 2.85a1.2 1.2 0 0 1 1.7 1.7l-9.1 9.1-2.1.4.4-2.1 9.1-9.1zm-9.6 11.3 9.1-9.1 2.1 2.1-9.1 9.1-2.1.4.4-2.1z" fill="#555"/>
+            </svg>
+        </button> 
+        <button (click)="deleteTask(task)" aria-label="Delete" style="background:none;border:none;padding:0;cursor:pointer;">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+                <path d="M6 7v7a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7" stroke="#555" stroke-width="1.5" stroke-linecap="round"/>
+                <rect x="4" y="4" width="12" height="2" rx="1" fill="#555"/>
+                <rect x="8" y="9" width="1.5" height="5" rx="0.75" fill="#555"/>
+                <rect x="10.5" y="9" width="1.5" height="5" rx="0.75" fill="#555"/>
+            </svg>
+        </button>
+    
+</div>

@@ -1,0 +1,21 @@
+<form>
+  <h2>Add New Task</h2>
+
+  <caption>
+    <h3>Task Form</h3>
+    <p>Please fill out the form below to add a new task.</p>
+  </caption>
+
+  <label for="name">Task <title></title>:</label>
+  <input type="text" id="name" [(ngModel)]="task.title" name="name" required />
+
+  <label for="description">Description:</label>
+  <textarea
+    id="description"
+    [(ngModel)]="task.description"
+    name="description"
+    required
+  ></textarea>
+
+  <button (click)="addToDoTask()">Add Task</button>
+</form>
